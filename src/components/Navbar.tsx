@@ -8,6 +8,8 @@ const Navbar = () => {
       scrollTrigger: {
         trigger: "nav",
         start: "bottom top",
+        end: "bottom top",
+        toggleActions: "play none none reverse",
       },
     });
 

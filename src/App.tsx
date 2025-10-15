@@ -10,6 +10,9 @@ const App = () => {
     <main>
       <Navbar />
       <Hero />
+      <div className='h-dvh bg-black'/>
+
+      
     </main>
   )
 }
