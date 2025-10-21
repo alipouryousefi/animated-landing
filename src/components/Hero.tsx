@@ -16,7 +16,7 @@ const Hero = () => {
       type: "lines",
     });
 
-    heroSplit.chars.forEach((char, index) => {
+    heroSplit.chars.forEach((char) => {
       char.classList.add("text-gradient");
     });
 

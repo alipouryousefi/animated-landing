@@ -40,7 +40,7 @@ const Art = () => {
 
   return (
     <section id="art">
-      <div className="container mx-auto h-full pt-20">
+      <div className="container mx-auto h-full pt-20 relative">
         <h2 className="will-fade">The ART</h2>
 
         <div className="content">
@@ -56,7 +56,7 @@ const Art = () => {
             <img
               src="/images/under-img.jpg"
               alt="art-img"
-              className="abs-center masked-img"
+              className="absolute inset-0 masked-img"
             />
           </div>
           <ul className="space-y-4 will-fade">
